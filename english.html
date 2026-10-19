@@ -68,7 +68,7 @@ footer{padding:0 24px 22px;color:var(--hydro-mid-gray);font-size:.82rem;line-hei
 const CONFIG={
   title:"Finn energiavvikene",
   formsUrl:"https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=kYkdvChKUkWrwaznrhCCdJPLCg4y8ptChRVfBhdKBKZUNzFEQ1hRVlFUTFNTN1MzNkNBNFlOUFpFOC4u&rf93a042985f646d7874c0de38d67aad6=%7BNAME%7D&r3651796970464b17ac21885d0e8d4e2e=%7BCONTACT%7D&r9bb72db7746f40f39e1a4761ba2b36f8=%7BSCORE%7D&r8994cc1f6c11474ea9ed50bfe2713e64=%7BLOCATION%7D&rc0a6f1cc466e479f87114be797957d6a=%7BFOUND_IDS%7D",
-  targetCount:6,
+  targetCount:7,
   allowSubmitBeforeComplete:true
 };
 // Coordinates are percentages of the LEFT picture only. Adjust x/y/r
@@ -78,7 +78,8 @@ const TARGETS=[
  {id:"red_stack_light",x:13.6,y:39.0,r:4.5},
  {id:"open_hot_machine",x:85.0,y:47.4,r:8.8},
  {id:"forklift_smoke",x:67.0,y:61.8,r:6.2},
- {id:"equipment_alarm",x:18.5,y:72.2,r:10.0}
+ {id:"equipment_alarm",x:18.5,y:72.2,r:10.0},
+ {id:"cup_floor", x:78.5, y:82.5, r:7.5}
 ];
 const stage=document.getElementById('stage'), feedback=document.getElementById('feedback'), statusBox=document.getElementById('status');
 const found=new Set(); const taps=[];
